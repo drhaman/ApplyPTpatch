@@ -8,11 +8,11 @@
     .DESCRIPTION
         Apply PT Patch to target DB
     .PARAMETER PTVersion
-        Peopletools patch without dots 85908
+        Peopletools patch without dots, 8.59.08 becomes 85908
     .PARAMETER TargetDB
-        Target database in Upper Case HEFD
+        Target database in Upper Case DEV
     .EXAMPLE
-        ApplyPTpatch.ps1 -ptversion 85908 -targetdb HEFD
+        ApplyPTpatch.ps1 -ptversion 85908 -targetdb DEV
 #>
 
 
